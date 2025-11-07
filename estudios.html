@@ -4,61 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudios - Sebastián </title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-    <h1>Mis Estudios</h1>
-      <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">estudios</a></li>
-            <li><a href="hobbies.html">hobbies</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
-        </ul>
-    </nav>
-    <main>
 
-       <section id=" Mis Estudios">
-            <h2>INICIO DEL RECORRIDO ESTUDIANTIL</h2>
-            <p> Conoce todo mi camino academico desde que ingrese a la escuela y ahora que estoy en la universidad</p>
-            <h3> Inicia mi comino academico</h3>
+<body>
+    <header>
+    <nav class="navbar">
+      <div class="logo">Sebastián Moreno</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="estudios.html" class="active">Estudios</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+       <section class="hero">
+          <div class="hero-content">
+            <h1>Mis Estudios</h1>
+            <p> Conoce mi recorrido académico, formación profesional y logros educativos.</p>
+          </div>
         </section>
 
-        <section id="Guarderia">
-        <article>
-          <h4> GUARDERIA </h4>  
-          <h5> Zeus </h5>
-          <p> En este lugar fue en donde comenzo todo, fue donde aprindi a convivir con mas niños de mi edad y en donde aprendi a escribir y a dibujar </p>
-          <img src="img/Guarderia.png">
+
+    <main class="container">
+    <h2>Estudios</h2>
+    <p class="intro">Aquí te comparto el desarrollo de mi formación académica, desde mis primeros pasos hasta mis estudios universitarios.</p>
+
+        <div class="cards">
+        <article class="card">
+          <h3>Guarderia</h3>  
+          <h4>Zeus</h4>
+          <p> En este lugar fue donde comenzó todo. Aprendí a convivir con otros niños de mi edad y descubrí mi gusto por escribir y dibujar.</p>
+          <img src="img/Guarderia.png" alt="Guardería Zeus">
         </article>
 
-        <article>
-         <h4> ESCUELA </h4>
-         <h5> UNIDAD EDUCATIVA JOHANN STRAUS </h5>
-         <p> Aqui fue en donde </p>
-         <img src="img/Escuela-2.png">
+        <article class="card">
+         <h3>Escuela | 2do - 5to</h3>
+         <h4>UNIDAD EDUCATIVA JOHANN STRAUS</h4>
+         <p>Aquí fue donde inicié formalmente mis estudios, desarrollando habilidades básicas de lectura, escritura y matemáticas.</p>
+         <img src="img/Escuela-2.png" alt="Escuela Johann Straus">
         </article>
 
-        <article>
-         <h5> UNIDAD EDUCATIVA JORGE ESCUDERO MOSCOSO </h5>
-         <p> Aqui fue en donde termino mi camino escolar para despues ingresar al colegio </p>
-         <img src="img/Escuela-1.png">
+        <article class="card">
+         <h3>Escuela | 5to - 7mo </h3>
+         <h4>UNIDAD EDUCATIVA JORGE ESCUDERO MOSCOSO</h4>
+         <p>En esta institución culminé mi formación escolar antes de ingresar al colegio, consolidando mis conocimientos fundamentales.</p>
+         <img src="img/Escuela-1.png" alt="Escuela Jorge Escudero Moscoso">
         </article>
 
-        <article>
-         <h4> COLEGIO </h4>
-         <h5> COLEGIO JUAN PIO MONTUFAR </h5>
-         <p> En esta institucion fue en donde me gradie, comensegie buenos amigos y consegui todo el conocimiento para dentrar a la vida adulta y profecional </p>
-         <img src="img/Colegio.png">
+        <article class="card">
+         <h3>COLEGIO</h3>
+         <h4>COLEGIO JUAN PIO MONTUFAR</h4>
+         <p>En esta institución me gradué. Fue una etapa importante en la que formé amistades valiosas y adquirí los conocimientos para comenzar mi vida profesional.</p>
+         <img src="img/Colegio.png" alt="Colegio Juan Pío Montúfar">
         </article>
 
-         <article>
-         <h4> UNIVERSIDAD </h4>
-         <h5> UNIVERSIDAD POLITECNICA SALESIANA </h5>
-         <p> Lugar en donde estoy estudiando actualmente y conoci a grandes compañeros y amigos </p>
-         <img src="img/Universidad.png">
+         <article class="card">
+         <h3>UNIVERSIDAD</h3>
+         <h4>UNIVERSIDAD POLITECNICA SALESIANA</h4>
+         <p>Actualmente curso mis estudios universitarios aquí, donde he conocido grandes compañeros y sigo desarrollándome personal y profesionalmente.</p>
+         <img src="img/Universidad.png" alt="Universidad Politécnica Salesiana">
         </article>
-
-    </main>
+    </div>
+</main>
 </body>
 </html>

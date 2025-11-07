@@ -1,0 +1,239 @@
+/* ======= Tipografía y base ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ======= Navbar ======= */
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #2b4c7e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #2b4c7e;
+}
+
+/* ======= Hero section ======= */
+.hero {
+  background: linear-gradient(135deg, #e9efff, #ffffff);
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  color: #2b4c7e;
+  margin-bottom: 0.8rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ======= Contenedor principal ======= */
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.container h2 {
+  color: #2b4c7e;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container .intro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* ======= Cards ======= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #2b4c7e;
+  margin-bottom: 0.5rem;
+}
+
+.card h4 {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.card p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* ======= Botones ======= */
+.btn,
+.btn-whatsapp {
+  display: inline-block;
+  background: #2b4c7e;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn:hover,
+.btn-whatsapp:hover {
+  background: #1f3761;
+}
+
+/* ======= Redes Sociales ======= */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.social-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.2s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+}
+
+.social-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.8rem;
+}
+
+.social-card a {
+  color: #2b4c7e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ======= WhatsApp ======= */
+.whatsapp-box {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.whatsapp-box img {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+/* ======= Footer ======= */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* ======= Imágenes generales ======= */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* ======= Responsividad ======= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+}

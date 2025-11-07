@@ -4,47 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hobbies - Sebastian</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <h1>hobbies o viajes</h1>
-       <nav>
-        <ul>
-             <li><a href="index.html">Inicio</a></li>
-            <li><a href="estudios.html">estudios</a></li>
-            <li><a href="#">hobbies</a></li>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">Sebastián Moreno</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
+            <li><a href="hobbies.html" class="active">Hobbies</a></li>
             <li><a href="proyectos.html">Proyectos</a></li>
             <li><a href="contactos.html">Contactos</a></li>
-        </ul>
-    </nav>
-    <main>
-           <section id=" Mis Viajes o hobbies">
-            <h2>INICIO DEL RECORRIDO ESTUDIANTIL</h2>
-            <p> Conoce todo mi camino academico desde que ingrese a la escuela y ahora que estoy en la universidad</p>
-            <h3> Inicia mi comino academico</h3>
-        </section>
+          </ul>
+      </nav>
+    </header>
 
-        <section id="viaje">
-        <article>
-          <h4> Visita a ambato </h4>  
-          <h5> museo de ambato  </h5>
-          <p> Viaje familiar por fiestas de ambato a conocer la ciudad y entrar a museos del lugra</p>
-          <img src="img/Ambato.jpg">
-        </article>
+          <section class="hero">
+            <div class="hero-content">
+            <h1>Mis Hobbies y Viajes</h1>
+            <p>Conoce un poco más sobre mis experiencias personales, mis viajes y los momentos que disfruto en mi tiempo libre.</p>
+            </div>
+          </section>
 
-        <article>
-         <h4> Viaje a Ibarra </h4>
-         <h5> Universidad yachay </h5>
-         <p> Viaje con mi prima a conocer las instalaciones en donde estudiara ella y de una ves conocer ibarra </p>
-         <img src="img/Visita-yachay.png">
-        </article>
 
-         <article>
-         <h4> tiempo con amigos </h4>
-         <h5> Conocer cascadas  </h5>
-         <p> realizamos un viaje con mis compañeros del colegio a visitar algunas cascadas en las vacasiones de la universidad para distraer la mente  </p>
-         <img src="img/Encuentro.png">
-        </article>
+          <main class="container">
+            <h2>Recuerdos y experiencias</h2>
+            <p class="intro">Estos son algunos de los viajes y actividades que me han marcado y que disfruto realizar.</p>
+          
+          <div class="cards">
+           <article class="card">
+            <h3>Visita a ambato</h3>  
+            <h4>Museo de ambato</h4>
+            <p>Viaje familiar por las fiestas de Ambato, donde conocí la ciudad y exploré los museos locales.</p>
+            <img src="img/Ambato.jpg" alt="Museo de Ambato" />
+           </article>
 
-    </main>
+           <article class="card" id="Yachay">
+            <h3>Viaje a Ibarra</h3>
+            <h4>Universidad Yachay Tech</h4>
+            <p>Viajé con mi prima para conocer las instalaciones donde estudiará y aprovechar para recorrer la ciudad de Ibarra.</p>
+            <img src="img/Visita-yachay.png" alt="Universidad Yachay Tech" />
+           </article>
+
+           <article class="card">
+            <h3>Tiempo con amigos</h3>
+            <h4>Conociendo cascadas</h4>
+            <p>Realizamos un viaje con mis compañeros del colegio para visitar varias cascadas durante las vacaciones universitarias. Fue una excelente forma de relajarnos y compartir buenos momentos.</p>
+            <img src="img/Encuentro.png" alt="Viaje con amigos a las cascadas" />
+           </article>
+        </div>
+     </main>
 </body>
 </html>

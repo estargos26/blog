@@ -1,43 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Sebastián - Contactos</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-<h1>Contactos o redes </h1>
-       <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="estudios.html">estudios</a></li>
-            <li><a href="hobbies.html">hobbies</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="#">Contactos</a></li>
-        </ul>
+ <header>
+    <nav class="navbar">
+      <div class="logo">Sebastián Moreno</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="estudios.html">Estudios</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contactos.html" class="active">Contactos</a></li>
+      </ul>
     </nav>
-    <main>
-        <section>
-            <h2>Mis redes sociales</h2>
-            <ul>
-                 <img src="img/Facebook.png" alt="Redes sociales" class="section-image">
-                <li><a href="#">Facebook (enlace de ejemplo)</a></li>
-                <img src="img/Instagram.jpg" alt="Redes sociales" class="section-image">
-                <li><a href="#">Instagram (enlace de ejemplo)</a></li>
-                <img src="img/Hotmail.png" alt="Redes sociales" class="section-image">
-                <li><a href="juan_zebas@hotmai.com">Enviar correo electrónico</a></li>
-            </ul>
-            <p>paginas en donde puedes saber mas de mi y conocerme.</p>
+  </header>
+
+        <section class="hero">
+            <div class="hero-content">
+             <h1>Contáctame</h1>
+             <p>Encuentra aquí mis redes sociales y formas de comunicación directa.</p>
+             </div>
         </section>
 
-        <section>
+
+        <main class="container">
+          <section class="contact-section">
+             <h2>Mis redes sociales</h2>
+             <p>Puedes seguirme o conocer más sobre mí a través de las siguientes plataformas:</p>
+            
+
+             <div class="social-links">
+                <div class="social-card">
+                  <img src="img/Facebook.png" alt="Facebook" />
+                  <a href="#" target="_blank">Facebook</a>
+                </div>
+
+
+                <div class="social-card">
+                  <img src="img/Instagram.jpg" alt="Instagram" />
+                  <a href="#" target="_blank">Instagram</a>
+                </div>
+
+
+                <div class="social-card">                
+                  <img src="img/Hotmail.png" alt="Correo Electrónico" />
+                  <a href="mailto:juan_zebas@hotmai.com">Enviar correo</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-section">
          <h2>Contáctame por WhatsApp</h2>
-            <p>Si deseas comunicarte conmigo por WhatsApp, puedes hacerlo dando clic en el siguiente enlace:</p>
+            <p>Si deseas comunicarte conmigo directamente, haz clic en el siguiente botón:</p>
 
-            <img src="img/whatsapp.png" alt="Redes sociales" class="section-image">
-            <a href="https://wa.me/593983478323" target="_blank" class="whatsapp-link">Enviar mensaje por WhatsApp</a>
+            <div class="Whatsapp-box">
+              <img src="img/whatsapp.png" alt="WhatsApp" />
+              <a href="https://wa.me/593983478323" target="_blank" class="btn-whatsapp">Enviar mensaje por WhatsApp</a>
+            </div>
         </section>
-
     </main>
+
+    
 </body>
 </html>

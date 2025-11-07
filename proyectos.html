@@ -4,49 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos - Sebastián</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body>
-     <h1>Mis Proyectos X</h1>
-       <nav>
-        <ul>
-             <li><a href="index.html">Inicio</a></li>
-            <li><a href="estudios.html">estudios</a></li>
-            <li><a href="hobbies.html">hobbies</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
-        </ul>
-    </nav>
-    <main>
 
-         <section id=" Mis Estudios">
-            <h2>PROYECTOS REALIZADOS EN TODO MI CAMINO</h2>
-            <p> Conoce todos los proyectos que e realizado y colabore a realizarlos </p>
-            <h3> Proyectos realizados </h3>
+<body>
+     <header>
+       <nav class="navbar">
+          <div class="logo">Sebastián Moreno</div>
+            <ul class="nav-links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="estudios.html">estudios</a></li>
+              <li><a href="hobbies.html">hobbies</a></li>
+              <li><a href="#">Proyectos</a></li>
+              <li><a href="contactos.html">Contactos</a></li>
+           </ul>
+       </nav>
+     </header>
+
+     <section class="hero">
+        <div class="hero-content">
+        <h1>Mis Proyectos X</h1>
+        <p>Conoce los proyectos en los que he trabajado a lo largo de mi formación académica y universitaria.</p>
+        </div>
+     </section>
+
+      <main class="container">
+        <h2>Proyectos Realizados</h2>
+        <p class="intro">Estos son algunos de los proyectos más destacados en los que he participado, combinando creatividad, innovación y trabajo en equipo.</p>
+
+
+        <div class="cards">
+            <article class="card"> 
+             <h3>Proyecto Universitario: IA</h3>
+             <h4>Proyecto de Realidad Aumentada | 5to semestre</h4>
+             <p>Junto con mis compañeros, desarrollamos un recorrido virtual de la empresa “El Salinerito”, aplicando tecnologías de realidad aumentada para mejorar la experiencia del usuario.</p>
+             <img src="img/Proyecto-RA.png" alt="Proyecto de Realidad Aumentada" />
+            </article>
         </section>
 
-        <section id="Proyec">
-        <article>
-          <h4> Proyectos universitarios </h4>  
-          <h5> Proyecto IA </h5>
-          <h6> Proyecto realidad aumentada | 5to semestre </h6>
-          <p> En este trabajo colaboramos con mis compañeros para realizar un recorrido virtual de la empresa el salinerito  </p>
-          <img src="img/Proyecto-RA.png">
+
+        <article class="card">
+          <h3>Proyecto Finanzas</h3>
+          <h4>Proyecto Finanzas | 5to semestre</h4>
+          <p>Elaboramos un análisis financiero sobre una empresa textil para evaluar la viabilidad de inversión, utilizando herramientas de datos y gestión económica.</p>
+          <img src="img/Proyecto-Finanzas.png" alt="Proyecto de Finanzas" />
         </article>
 
-        <article>
-         <h5> Proyecto finanzas </h5>
-         <h6> Proyecto finanzas | 5to semestre </h6>
-         <p> Realizamos un proyecto de empresas textiles para saber como la empresa tenia sos datos numericos y si era factible invertir en esa empresa </p>
-         <img src="img/Proyecto-Finanzas.png">
+        
+        <article class="card" id="proyecto-integrador">
+         <h3>Proyecto Integrador</h3>
+         <h4> Proyecto Integrador | 4to semestre </h4>
+         <p> Diseñamos un proyecto innovador como proyecto final, integrando distintas materias del semestre. Fue una experiencia clave para fortalecer la colaboración y el pensamiento emprendedor.</p>
+         <img src="img/Proyectos.png" alt="Proyecto Integrador TYCHE" />
+         <a href="https://l333x.github.io/Tyche3.0/" target="_blank" class="btn">Visitar página recomendada</a>
         </article>
-
-        <article>
-         <h5> Proyecto integrador </h5>
-         <h6> Proyecto Integrador | 4to semestre </h6>
-         <p> Aqui realizamos la creacion de una empresa que sea innovadora para presentar como trabajo final de diferentes materias del semestre </p>
-         <img src="img/TYCHE.png">
-         <li><a href="https://l333x.github.io/Tyche3.0/" target="_blank">Visitar página recomendada</a>
-        </article>
+        </div>
 
     </main>
 </body>

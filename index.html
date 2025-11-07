@@ -3,71 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Sebastián Moreno</title>
+    <title>Blog de Sebastián Moreno</title> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <h1>Blog de Sebastián</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="estudios.html">estudios</a></li>
-            <li><a href="hobbies.html">hobbies</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
-        </ul>
+   <header>
+    <nav class="navbar">
+      <div class="logo">Sebastián Moreno</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="estudios.html">Estudios</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
     </nav>
-    <main>
-       <section class="perfil">
-            <h2>Mi foto de perfil</h2>
-            <img src="img/Foto-Perfil.png" alt="Foto de Sebastián" class="foto-perfil">
-        </section>
+  </header>
 
-        <section id="Bienvenido">
-            <h1>COMIENZO DEL RECORRIDO</h1>
-            <p> Bienvenido a mi blog, Aquí descubriras más informacion sobre mí, mis estudios, proyectos, hobbies y formas de contacto.</p>
-        </section>
+   <section class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido a mi blog</h1>
+      <p>Descubre más sobre mi formación, mis hobbies, mis proyectos y cómo contactarme.</p>
+    </div>
+  </section>
+
+       <section class="Container perfil">
+            <h2>Foto de perfil</h2>
+              <div class="perfil-content"> 
+                <img src="img/Foto-Perfil.png" alt="Foto de Sebastián" class="foto-perfil"/>
+              </div>
+       </section>
+
          
-      <section id="Proyextos X">
-        <article>
+      <section class="container">
+        <h2>Proyectos X</h2>
+        <div class="cards">
+          <article class="card">
           <img src="img/Proyectos.png">
-          <h3> peroyectos-X</h3>
+          <h3> peroyectos-X</h3>  
           <p> Proyectos realizados en todo mi camino academico</p>
-          <a href="proyectos.html#Proyecto-x"> leer más</a>
+          <a href="proyectos.html#Proyecto-x" class="btn">Leer más</a>
         </article>
-       
 
-        <article>
-         <img src="img/Camino.png">
+       <article class="card">
+         <img src="img/Camino.png" alt="Carrera académica" />
          <h3> Carrera academica</h3>
          <p> Conoce todo mi camino academico</p>
-         <a href="estudios.html#IniciosAcademicos"> leer más</a>
+         <a href="estudios.html#IniciosAcademicos" class="btn">Leer más</a>
         </article>
        
-        <article>
-         <img src="img/dummy - 335x224.png">
-         <h3> Proyecto-Cuarto</h3>
-         <p> Realidad Integrador | 4to semestre</p>
-         <a href="proyectos.html#Proyecto-x"> leer más</a>
+
+        <article class="card">
+         <img src="img/Hobbies.png" alt="Proyecto Cuarto" />
+         <h3> Hobbies o viajes</h3>
+         <p> Conoce los lugares o actividades que realice en toda mi vida </p>
+         <a href="hobbies.html" class="btn">Leer más</a>
         </article>
-      </section>
-        
-      <section id="My-ultimo-viaje">
+
+
+        <article class="card">
+         <img src="img/Contacto.png" alt="Proyecto Cuarto" />
+         <h3> redes </h3>
+         <p> Conoce los lugares en donde puedes comunicarte conmigo. </p>
+         <a href="contactos.html" class="btn">Leer más</a>
+        </article>
+        </div>
+</section>
+
+
+      <section class="Container viaje">
         <h2> ultimos viajes</h2>
-        <article>
-        <img src="img/Yachay.png">
+          
+        <div class="cards">
+        <article class="card">
+        <img src="img/Yachay.png" alt="Universidad Yachay Tech" />
         <h3> Universidad Yachay Tech</h3>
         <p> Universidad Yachay Tech | 7/08/2025</p>
-        <a href="hobbies.html#Yachay"> leer más</a>
+         <a href="hobbies.html#Yachay" class="btn">Leer más</a>
        </article>
        
-        <aside>
-         <article>
-            <img src="img/Viaje.png">
+        <aside class="card">
+            <img src="img/Viaje.png" alt="Otro viaje" />
             <h4>Otro viaje</h4>
             <p> Mes, Año</p>
-         </article>
         </aside>
+        </div>
       </section>
-    </main>
+
 </body>
 </html>
